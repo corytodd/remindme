@@ -1,0 +1,6 @@
+[package]
+name = "remindme"
+version = "0.1.0"
+authors = ["Cory Todd <corneliustodd@gmail.com>"]
+
+[dependencies]
