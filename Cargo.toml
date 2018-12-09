@@ -4,3 +4,5 @@ version = "0.1.0"
 authors = ["Cory Todd <corneliustodd@gmail.com>"]
 
 [dependencies]
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser"] }
